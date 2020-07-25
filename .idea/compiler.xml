@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="codewars" />
-        <module name="codekata" />
+        <module name="codedesign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="codedesign" target="1.5" />
       <module name="codekata" target="1.5" />
       <module name="codewars" target="1.5" />
     </bytecodeTargetLevel>
